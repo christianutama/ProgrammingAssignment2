@@ -3,7 +3,9 @@
 ## time to calculate the inverse of a matrix. The objective of this function is
 ## to minimize the amount of resource needed to calculate the inverse of a certain
 ## matrix by caching/storing its inverse once calculated so that it can be called
-## again if necessary without the need of calculation.
+## again if necessary without the need of calculation. This function is based on
+## the example function "Caching the Mean of a Vector" that is shown in the 
+## course page, with necessary adjustments.
 
 ## The function makeCacheMatrix creates a 'matrix', which is actually not a matrix
 ## but a list, which stores the matrix to be inversed (store), gets the matrix (get),
